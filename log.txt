@@ -1,42 +1,9 @@
-Database could not be reached on date and time: 2023/06/01 20:35:43
+Database could not be reached on date and time: 2023/06/03 00:55:08
 se.kth.iv1350.pos.integration.OperationFailedException: Database could not be reached
 	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:72)
 	at se.kth.iv1350.pos.view.View.testRun(View.java:67)
 	at se.kth.iv1350.pos.view.View.run(View.java:40)
 	at se.kth.iv1350.pos.startup.Main.main(Main.java:27)
-Caused by: se.kth.iv1350.pos.integration.UnreachableDatabaseException: Database server crashed
-	at se.kth.iv1350.pos.model.Sale.registerItem(Sale.java:70)
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:69)
-	... 3 more
-
-Database could not be reached on date and time: 2023/06/01 20:35:43
-se.kth.iv1350.pos.integration.OperationFailedException: Database could not be reached
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:72)
-	at se.kth.iv1350.pos.view.View.testRun(View.java:67)
-	at se.kth.iv1350.pos.view.View.run(View.java:40)
-	at se.kth.iv1350.pos.startup.Main.main(Main.java:28)
-Caused by: se.kth.iv1350.pos.integration.UnreachableDatabaseException: Database server crashed
-	at se.kth.iv1350.pos.model.Sale.registerItem(Sale.java:70)
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:69)
-	... 3 more
-
-Database could not be reached on date and time: 2023/06/02 07:24:10
-se.kth.iv1350.pos.integration.OperationFailedException: Database could not be reached
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:72)
-	at se.kth.iv1350.pos.view.View.testRun(View.java:67)
-	at se.kth.iv1350.pos.view.View.run(View.java:40)
-	at se.kth.iv1350.pos.startup.Main.main(Main.java:27)
-Caused by: se.kth.iv1350.pos.integration.UnreachableDatabaseException: Database server crashed
-	at se.kth.iv1350.pos.model.Sale.registerItem(Sale.java:70)
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:69)
-	... 3 more
-
-Database could not be reached on date and time: 2023/06/02 07:24:10
-se.kth.iv1350.pos.integration.OperationFailedException: Database could not be reached
-	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:72)
-	at se.kth.iv1350.pos.view.View.testRun(View.java:67)
-	at se.kth.iv1350.pos.view.View.run(View.java:40)
-	at se.kth.iv1350.pos.startup.Main.main(Main.java:28)
 Caused by: se.kth.iv1350.pos.integration.UnreachableDatabaseException: Database server crashed
 	at se.kth.iv1350.pos.model.Sale.registerItem(Sale.java:70)
 	at se.kth.iv1350.pos.controller.Controller.registerItem(Controller.java:69)
