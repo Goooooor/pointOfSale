@@ -37,10 +37,10 @@ public class View {
 		// Use 0 as parameter for regular flow
 		// Use 3 as parameter for fake database failure, OperationFailedException
 		// Use 4 or higher as parameter for ItemNotFoundInInventoryException
-		testRun(0);
+		testFlow(0);
 	}
 
-	private void testRun(int itemID) {
+	private void testFlow(int itemID) {
 		try {
 
 			System.out.println("//////Added to sale//////");
