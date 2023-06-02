@@ -42,7 +42,6 @@ public class View {
 
 	private void testFlow(int itemID) {
 		try {
-
 			System.out.println("//////Added to sale//////");
 			System.out.println(contr.registerItem(0));
 			System.out.println("\nRunning total: " + contr.getRunningTotal() + " SEK");
