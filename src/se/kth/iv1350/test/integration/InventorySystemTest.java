@@ -20,7 +20,7 @@ public class InventorySystemTest {
     private Sale sale;
 
     @BeforeEach
-    public void setUp() {
+    public void prepareTest() {
         inventorySystem = new InventorySystem();
         sale = new Sale();
         testItemInfo = new ItemDTO("Whole chicken 1,5 kg", 100, 0.12, 30);

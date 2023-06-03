@@ -15,7 +15,7 @@ public class ItemTest {
     private ItemDTO itemInfo;
 
     @BeforeEach
-    public void setUp() {
+    public void prepareTest() {
         itemInfo = new ItemDTO("Whole chicken 1,5 kg", 100, 0.12, 30);
         item = new Item(0, itemInfo);
     }

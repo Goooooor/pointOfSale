@@ -21,7 +21,7 @@ public class OperationFailedExceptionTest {
     private Printer printer;
 
     @BeforeEach
-    public void setUp() {
+    public void prepareTest() {
         inventorySystem = new InventorySystem();
         accountingSystem = new AccountingSystem();
         printer = new Printer();

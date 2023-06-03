@@ -21,7 +21,7 @@ public class RegisterTest {
     private Receipt receipt;
 
     @BeforeEach
-    public void setUp() {
+    public void prepareTest() {
         register = new Register();
         sale = new Sale();
         payment = new Payment(500, 50);
