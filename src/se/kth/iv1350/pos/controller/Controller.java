@@ -92,8 +92,7 @@ public class Controller {
 	 * @return The change from the payment.
 	 */
 	public double calculateChange(double amountPaid) {
-		double change = sale.calculateChange(amountPaid);
-		
+		double change = sale.calculateChange(amountPaid);		
 		registerPayment(new Payment(amountPaid, change));
 		return change;
 	}
