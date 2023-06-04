@@ -71,7 +71,6 @@ public class Sale {
 	 * @return Total price of the sale.
 	 */
 	public double endSale() {
-		notifyObservers();
 		return getTotalPrice();
 	}
 
@@ -138,6 +137,7 @@ public class Sale {
 	 * @return The change.
 	 */
 	public double calculateChange(double amountPaid) {
+		notifyObservers();
 		double change = Math.abs(getTotalPrice() - amountPaid);
 		return change;
 	}
