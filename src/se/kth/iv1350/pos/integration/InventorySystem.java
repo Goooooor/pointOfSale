@@ -29,7 +29,7 @@ public class InventorySystem {
 		inventory.add(chicken);
 		inventory.add(toiletPaper);
 		inventory.add(bacon);
-		inventory.add(kanelBulle);
+		inventory.add(kanelbulle);
 	}
 
 	/**
