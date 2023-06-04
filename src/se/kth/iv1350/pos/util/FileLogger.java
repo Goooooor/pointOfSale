@@ -13,9 +13,9 @@ public class FileLogger {
 
     private PrintWriter logStream;
 
-    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    private DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 
-    LocalDateTime now = LocalDateTime.now();
+    private LocalDateTime now = LocalDateTime.now();
 
     /**
      * Creates an instance of the class.
