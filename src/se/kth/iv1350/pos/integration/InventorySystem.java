@@ -19,7 +19,7 @@ public class InventorySystem {
 
 	private ItemDTO bacon = new ItemDTO("Bacon 5 pack", 50, 0.12, 100);
 
-	private ItemDTO kanelBulle = new ItemDTO("Kanelbulle 10 pack", 30, 0.12, 20);
+	private ItemDTO kanelbulle = new ItemDTO("Kanelbulle 10 pack", 30, 0.12, 20);
 
 	/**
 	 * Creates a new instance of the <code>InventorySystem</code> class.
